@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Time Display</title>
+    <!-- {% load staticfiles %} -->
+    <!-- <link rel='stylesheet' href="{% static 'timedisplay/css/main.css'%}"> -->
+    <style>
+    * {text-align: center}
+    .red {color:red;}
+    </style>
+  </head>
+  <body>
+    <h1>Bionic Time</h1>
+    <h2>now available in DJANGO!</h2>
+    <h3>it is:</h3>
+    <h1 class="red">{{ now }}</h1>
+  </body>
+</html>
